@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+  }
+
+  .contenedor-principal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    background-color:#ddd;
+    width: 60%;
+    height: auto;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  #formulario-busqueda {
+    margin-bottom: 20px;
+  }
+  
+  #termino-busqueda {
+    padding: 10px;
+    width: 200px;
+    font-size: 16px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    border-radius: 30px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  #contenedor-resultados {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #555;
+  }
+  
+  table {
+    width: 80%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  th, td {
+    padding: 20px;
+    border: 1px solid black;
+    text-align: left;
+  }
+  
+  /* tr:nth-child(even) {
+    background-color: #f9f9f9;
+  } */
+  
+  tr.highlight {
+    background-color: #ffffff;
+  }
+  

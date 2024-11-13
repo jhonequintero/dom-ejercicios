@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Diccionario - Búsqueda en Tabla</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="contenedor-principal">
+    <h1>Diccionario</h1>
+
+  <form id="formulario-busqueda">
+    <input type="text" id="termino-busqueda" placeholder="Ingresa un término" required>
+    <button type="submit">Buscar</button>
+  </form>
+
+  <div id="contenedor-resultados"></div>
+
+
+  <table id="tabla-diccionario">
+    <thead>
+      <tr>
+        <th>Palabra</th>
+        <th>Significado</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Ejemplo</td>
+        <td>Una instancia representativa de una clase o grupo</td>
+      </tr>
+      <tr>
+        <td>Prueba</td>
+        <td>Proceso de evaluación de algo o alguien</td>
+      </tr>
+      <tr>
+        <td>Búsqueda</td>
+        <td>Proceso de buscar algo específico</td>
+      </tr>
+      <!-- Agrega más filas según necesites -->
+    </tbody>
+  </table>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
